@@ -1,5 +1,5 @@
 import React from 'react';
-import bgvideo1 from '../../public/bgvideo1.mp4';
+import bgvideo1 from '../../public/bgvideo1.webm';
 
 const HeroSection = () => {
   return (

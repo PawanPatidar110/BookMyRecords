@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Service from '../Components/Service'
-import ServiceImage from '../../public/service.jpg'
+import ServiceImage from '../../public/service.webp'
 
 const ServicePage = () => {
   return (
@@ -10,7 +10,7 @@ const ServicePage = () => {
       <div className="w-full flex flex-col md:flex-row items-center gap-10 md:my-10">
         <div className="flex-1 w-full">
           <img
-           src={ServiceImage}
+            src={ServiceImage}
             alt="Team at work"
             className="
               rounded-xl shadow-lg 

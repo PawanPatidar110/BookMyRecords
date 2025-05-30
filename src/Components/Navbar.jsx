@@ -48,14 +48,14 @@ const Navbar = () => {
             ))}
           </ul>
 
-       
+
         </div>
       </nav>
 
       {/* Mobile menu dropdown */}
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden w-full bg-white shadow-md`}>
         <div className="flex flex-col items-end gap-3 py-4 pr-4">
-          
+
 
           <ul className="flex flex-col items-end gap-4 text-base font-semibold pr-2">
             {navLinks.map(({ label, to }) => (
@@ -64,8 +64,7 @@ const Navbar = () => {
                   to={to}
                   onClick={handleItemClick}
                   className={({ isActive }) =>
-                    `transition-colors duration-200 ${
-                      isActive ? 'text-blue-600' : 'text-black hover:text-blue-400'
+                    `transition-colors duration-200 ${isActive ? 'text-blue-600' : 'text-black hover:text-blue-400'
                     }`
                   }
                 >
