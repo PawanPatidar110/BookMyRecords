@@ -41,7 +41,7 @@ const ServiceCard = ({ icon, title, description, delay }) => (
 
 export default function WelcomePage() {
   return (
-    <main className="min-h-screen flex flex-col items-center justify-center px-4 py-4 bg-gradient-to-br from-blue-50 via-white to-blue-100">
+    <main className="min-h-screen flex flex-col items-center justify-center px-4 py-4 bg-gradient-to-br from-blue-50 via-white to-blue-200">
       {/* Header */}
       <header className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 drop-shadow-lg">
