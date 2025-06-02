@@ -1,37 +1,35 @@
+
+
 import React from 'react';
 import bgvideo1 from '../../public/bgvideo1.webm';
 
 const HeroSection = () => {
   return (
-    <>
-      <div className='relative w-screen h-screen overflow-hidden'>
-        {/* Background Video */}
-        <video
-          src={bgvideo1}
-          className='absolute top-0 left-0 w-full h-full object-cover'
-          autoPlay
-          loop
-          muted
-          playsInline
-        >
-          <source className='bg-cover bg-center' />
-          Your browser does not support the video tag.
-        </video>
+    <div className="relative h-screen overflow-hidden m-0 p-0">
+      {/* Background Video */}
+      <video
+        src={bgvideo1}
+        className="absolute inset-0 w-full h-full object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
 
-        {/* Overlay content (optional) */}
-        <div className="relative z-10 flex flex-col items-center justify-center w-full h-screen gap-y-2 overflow-hidden">
-          <h1 className="text-white text-center text-4xl w-[50%] md:text-7xl font-bold">
-            We care about your business
-          </h1>
-          <h3 className="text-white text-center text-2xl w-[50%] md:text-3xl font-bold">
-            We inspire clients to make their most challenging business decisions with confidence.
-          </h3>
-        </div>
+      {/* Overlay Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center">
+        <h1 className="text-white  text-3xl md:text-7xl font-bold max-w-3xl w-full px-4 py-4 rounded-lg shadow-lg">
+          We care about your business
+        </h1>
+        <h3 className="text-white text-xl md:text-2xl font-medium max-w-2xl mt-6 px-4">
+          We inspire clients to make their most challenging business decisions with confidence.
+        </h3>
       </div>
-    </>
+
+      {/* Optional overlay for contrast */}
+      <div className="absolute inset-0 bg-black/30 z-0" />
+    </div>
   );
 };
 
 export default HeroSection;
-
-
