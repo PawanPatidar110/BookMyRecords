@@ -142,19 +142,21 @@ const ContactUs = () => {
               <li className="flex items-start gap-4">
                 <FaMapMarkerAlt className="text-orange-400 mt-1" />
                 <span>
-                  <span className="font-semibold text-white">Address:</span> 233, Totall hospital, Indore, Madhya Pradesh, India
+                  <span className="font-semibold text-white">Address: </span>
+                  Book My Records Office
+                  Indore, MP
                 </span>
               </li>
               <li className="flex items-center gap-4">
                 <FaPhoneAlt className="text-orange-400" />
                 <span>
-                  <span className="font-semibold text-white">Phone:</span> +91 9898989898
+                  <span className="font-semibold text-white">Phone:</span> +91 93028 21652
                 </span>
               </li>
               <li className="flex items-center gap-4">
                 <FaEnvelope className="text-orange-400" />
                 <span>
-                  <span className="font-semibold text-white">Email:</span> bookMyRecords@app.in
+                  <span className="font-semibold text-white">Email: </span>info@bookmyrecords.com
                 </span>
               </li>
             </ul>
