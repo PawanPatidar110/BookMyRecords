@@ -31,7 +31,7 @@ export default function Service() {
   ];
 
   return (
-    <section className="bg-gradient-to-br from-blue-100 via-white to-blue-200 py-16 px-6 md:px-12">
+    <section className="bg-gradient-to-tr from-blue-100 via-white to-blue-200 py-16 px-6 md:px-12">
       {/* Section Header */}
       <div className="max-w-7xl mx-auto text-center mb-12">
         <div
