@@ -35,10 +35,10 @@ export default function Service() {
       {/* Section Header */}
       <div className="max-w-7xl mx-auto text-center mb-12">
         <div
-          className="inline-flex items-center px-4 py-1 bg-white text-yellow-500 font-semibold rounded-full shadow mb-4"
+          className="inline-flex items-center px-4 py-1 bg-white text-blue-500 font-semibold rounded-full shadow mb-4"
           aria-label="Section Highlight"
         >
-          <span className="w-3 h-3 bg-yellow-400 rounded-full mr-2" />
+          <span className="w-3 h-3 bg-blue-400 rounded-full mr-2" />
           HIGHLIGHT
         </div>
         <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
