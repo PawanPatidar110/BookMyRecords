@@ -17,7 +17,7 @@ const ServicePage = () => {
               w-full md:w-[70%] 
               mx-auto 
               object-cover h-64 
-              border border-gray-700
+              
             "
           />
         </div>
