@@ -17,6 +17,7 @@ const AboutUs = () => {
       <section className="w-full max-w-6xl flex flex-col md:flex-row items-center gap-10 mb-20">
         <div className="flex-1">
           <img
+            loading="lazy"
             src={AboutUs1}
             alt="Team at work"
             className="rounded-xl shadow-lg mx-auto w-[90%] object-cover h-64"

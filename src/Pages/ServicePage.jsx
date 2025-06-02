@@ -10,6 +10,7 @@ const ServicePage = () => {
       <div className="w-full bg-gradient-to-br from-white via-white to-blue-200 flex flex-col md:flex-row items-center gap-10 md:mt-10">
         <div className="flex-1 w-full">
           <img
+            loading="lazy"
             src={ServiceImage}
             alt="Team at work"
             className="

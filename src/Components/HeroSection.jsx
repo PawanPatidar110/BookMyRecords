@@ -8,6 +8,7 @@ const HeroSection = () => {
     <div className="relative h-screen overflow-hidden m-0 p-0">
       {/* Background Video */}
       <video
+        loading="lazy"
         src={bgvideo1}
         className="absolute inset-0 w-full h-full object-cover"
         autoPlay
