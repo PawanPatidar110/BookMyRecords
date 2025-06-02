@@ -7,7 +7,7 @@ import ServiceImage from '../../public/service.webp'
 const ServicePage = () => {
   return (
     <>
-      <div className="w-full flex flex-col md:flex-row items-center gap-10 md:my-10">
+      <div className="w-full bg-gradient-to-br from-white via-white to-blue-200 flex flex-col md:flex-row items-center gap-10 md:mt-10">
         <div className="flex-1 w-full">
           <img
             src={ServiceImage}

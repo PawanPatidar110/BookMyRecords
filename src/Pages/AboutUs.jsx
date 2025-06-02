@@ -7,7 +7,7 @@ const AboutUs = () => {
     <div className="min-h-screen text-white px-6 py-16 flex flex-col items-center bg-gradient-to-br from-blue-50 via-white to-blue-100">
       {/* Header */}
       <div className="text-center max-w-4xl mb-16">
-        <h1 className="text-5xl font-extrabold text-gray-900 mb-4">About Us</h1>
+        <h1 className="text-5xl font-extrabold p-2 text-gray-900 mb-4">About Us</h1>
         <p className="text-lg text-gray-700">
           Learn more about our mission, our story, and the founder who drives our vision forward at Book My Records.
         </p>

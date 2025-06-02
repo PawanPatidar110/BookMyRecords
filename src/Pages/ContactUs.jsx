@@ -128,7 +128,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const ContactUs = () => {
   return (
-    <div className="min-h-fit flex items-center justify-center bg-gray-100 py-20 px-4">
+    <div className="min-h-fit flex items-center justify-center  bg-gradient-to-br from-blue-50 via-white to-blue-200  py-20 px-4">
       <div className="w-full max-w-4xl bg-gray-600 rounded-xl shadow-2xl flex flex-col md:flex-row overflow-hidden">
 
         {/* Contact Info */}

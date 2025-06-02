@@ -49,7 +49,7 @@ const Navbar = () => {
   const handleItemClick = () => setIsOpen(false);
 
   return (
-    <div className="z-20 bg-white w-full shadow-md">
+    <div className="z-20 bg-gradient-to-r from-blue-50 via-white to-white w-full shadow-md">
       <nav className="w-[90%] max-w-7xl mx-auto flex h-20 items-center justify-between px-4">
         {/* Logo */}
         <div className="w-72 text-3xl font-light text-blue-500">BookMyRecords</div>
