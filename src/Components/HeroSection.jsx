@@ -18,7 +18,7 @@ const HeroSection = () => {
 
       {/* Overlay Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center">
-        <h1 className="text-white  text-3xl md:text-7xl font-bold max-w-3xl w-full px-4 py-4 rounded-lg shadow-lg">
+        <h1 className="text-white  text-3xl md:text-7xl font-bold max-w-3xl w-full px-4 py-4 rounded-lg ">
           We care about your business
         </h1>
         <h3 className="text-white text-xl md:text-2xl font-medium max-w-2xl mt-6 px-4">
