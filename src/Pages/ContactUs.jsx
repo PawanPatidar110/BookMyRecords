@@ -140,7 +140,7 @@ const ContactUs = () => {
             </p>
             <ul className="space-y-6 text-gray-300">
               <li className="flex items-start gap-4">
-                <FaMapMarkerAlt className="text-orange-400 mt-1" />
+                <FaMapMarkerAlt className="text-blue-400 mt-1" />
                 <span>
                   <span className="font-semibold text-white">Address: </span>
                   Book My Records Office
@@ -148,13 +148,13 @@ const ContactUs = () => {
                 </span>
               </li>
               <li className="flex items-center gap-4">
-                <FaPhoneAlt className="text-orange-400" />
+                <FaPhoneAlt className="text-blue-400" />
                 <span>
                   <span className="font-semibold text-white">Phone:</span> +91 93028 21652
                 </span>
               </li>
               <li className="flex items-center gap-4">
-                <FaEnvelope className="text-orange-400" />
+                <FaEnvelope className="text-blue-400" />
                 <span>
                   <span className="font-semibold text-white">Email: </span>info@bookmyrecords.com
                 </span>
@@ -183,7 +183,7 @@ const ContactUs = () => {
                 name="name"
                 placeholder="Name"
                 required
-                className="w-full pl-2 rounded-sm bg-transparent border-b border-gray-400 text-gray-200 py-2 px-0 focus:outline-none focus:border-orange-500 placeholder-gray-400"
+                className="w-full pl-2 rounded-sm bg-transparent border-b border-gray-400 text-gray-200 py-2 px-0 focus:outline-none focus:border-blue-500 placeholder-gray-400"
               />
             </div>
             <div>
@@ -192,7 +192,7 @@ const ContactUs = () => {
                 name="email"
                 placeholder="Email"
                 required
-                className="w-full pl-2 rounded-sm bg-transparent border-b border-gray-400 text-gray-200 py-2 px-0 focus:outline-none focus:border-orange-500 placeholder-gray-400"
+                className="w-full pl-2 rounded-sm bg-transparent border-b border-gray-400 text-gray-200 py-2 px-0 focus:outline-none focus:border-blue-500 placeholder-gray-400"
               />
             </div>
             <div>
@@ -201,7 +201,7 @@ const ContactUs = () => {
                 name="subject"
                 placeholder="Subject"
                 required
-                className="w-full pl-2 rounded-sm bg-transparent border-b border-gray-400 text-gray-200 py-2 px-0 focus:outline-none focus:border-orange-500 placeholder-gray-400"
+                className="w-full pl-2 rounded-sm bg-transparent border-b border-gray-400 text-gray-200 py-2 px-0 focus:outline-none focus:border-blue-500 placeholder-gray-400"
               />
             </div>
             <div>
@@ -210,13 +210,13 @@ const ContactUs = () => {
                 placeholder="Message"
                 rows={4}
                 required
-                className="w-full pl-2 bg-transparent rounded-sm border border-gray-400 text-gray-200 py-2 px-0 focus:outline-none focus:border-orange-500 placeholder-gray-400 resize-none"
+                className="w-full pl-2 bg-transparent rounded-sm border border-gray-400 text-gray-200 py-2 px-0 focus:outline-none focus:border-blue-500 placeholder-gray-400 resize-none"
               />
             </div>
             <div>
               <button
                 type="submit"
-                className="bg-orange-500 hover:bg-orange-600 hover:cursor-pointer text-white font-semibold px-6 py-2 rounded shadow mt-4 transition-colors duration-200"
+                className="bg-blue-500 hover:bg-blue-600 hover:cursor-pointer text-white font-semibold px-6 py-2 rounded shadow mt-4 transition-colors duration-200"
               >
                 Send Message
               </button>
